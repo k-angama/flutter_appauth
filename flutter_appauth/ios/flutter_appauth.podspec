@@ -14,10 +14,12 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.source = {
-      :git => "git@github.com:bbqsrc/AppAuth-iOS.git"
+      :git => "git@github.com:bbqsrc/AppAuth-iOS.git",
+      :branch => 'master'
     }
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
+  s.dependency 'AppAuth'
   s.ios.deployment_target = '9.0'
   s.resource_bundles = {'flutter_appauth_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
