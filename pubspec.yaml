@@ -1,11 +1,5 @@
 name: flutter_appauth_workspace
 
-dependencies:
-  flutter_appauth:
-    path: /flutter_appauth
-  flutter_appauth_platform_interface:
-    path: /flutter_appauth_platform_interface
-
 environment:
   sdk: '>=3.0.0 <4.0.0'
 dev_dependencies:

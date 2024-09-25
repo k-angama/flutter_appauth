@@ -14,8 +14,7 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.source = {
-      :git => "git@github.com:bbqsrc/AppAuth-iOS.git",
-      :branch => 'master'
+      :git => "git@github.com:bbqsrc/AppAuth-iOS.git"
     }
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
